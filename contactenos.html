@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/src/images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <title>Contactenos</title>
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="nav">
+          <!-- Botones -->
+          <div class="container">
+            <!-- Logo -->
+            <a href="index.html" class="nav_img">
+              <img
+                src="../proyecto_copia/src/images/perfil_sin_fondo2.png"
+                alt="Carpinteria Isabella"
+              />
+            </a>
+            <a class="nav_item" href="">¿Quienes somos?</a>
+            <a class="nav_item" href="">Productos</a>
+            <a class="nav_item" href="contactenos.html">Contáctenos</a>
+            <a class="nav_item" href="login.html">Iniciar Sesion</a>
+            <a class="nav_item_icon" target="_blank" href="https://www.facebook.com/MuebleriaYCarpinteriaIsabella/">
+              <img src="../proyecto_copia/src/images/icono_fb.png" alt="" />
+            </a>
+            <a class="nav_item_icon" target="_blank" href="https://www.instagram.com/mueblesycarpinteriaisabella/?hl=es">
+              <img src="../proyecto_copia/src/images/icono_ig.png" alt="" />
+            </a>
+            <a class="nav_item_icon" target="_blank" href="https://wa.me/+573212529034">
+              <img src="../proyecto_copia/src/images/icono_wp.png" alt="" />
+            </a>
+          </div>
+        </nav>
+      </header>
+
+
+    <div class="container_form">
+        <h1>Contáctenos</h1>
+        <form class="form" action="" method="POST">
+            <input class="form_input" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellidos" required="true" autofocus/><br>
+
+            <input class="form_input" type="email" id="correo" name="correo" placeholder="Correo electrónico" required="true" /><br>
+
+            <input class="form_input" type="number" id="telefono" name="telefono" placeholder="Teléfono de contacto" required="true" /><br>
+
+            <textarea class="form_input" name="mensaje" id="mensaje" cols="60" rows="5" placeholder="Escribe tu mensaje" required></textarea><br>
+
+            <button class="form_button"type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
