@@ -2,6 +2,14 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     background: #a5a5a5;
+    color: #2d2a2b;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+
 }
 
 .nav{
@@ -106,7 +114,7 @@ body{
     background: #4f4c4d;
 }
 
-/* Contactenos */
+/* Formularios */
 
 .container_form{
     width: 40%;
@@ -124,7 +132,6 @@ body{
 
 .container_form h1{
     text-align: center;
-    color: #2d2a2b;
 
 }
 
@@ -182,6 +189,41 @@ body{
     color: #4f4c4d;
 }
 
-.form a{
+/* Sobre Nosotros */
+
+.container_sobreNosotros{
+    background: #4f4c4d;
+    max-width: 1400px;
+}
+
+.sobre_container{
     width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.sobre_quienesSomos{
+    background: url(../src/images/fondo_sobreNosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_quienesSomos h1{
+    color: #b6b6b6;
+    font-size: 4em;
+}
+
+
+
+.texto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
