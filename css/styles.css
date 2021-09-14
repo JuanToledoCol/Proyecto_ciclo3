@@ -76,7 +76,7 @@ a{
 /* Aside */
 
 .container_content{
-    background-image: url(../proyecto_copia/src/images/fondo_principal.jpg);
+    background-image: url(../src/images/fondo_principal.jpg);
     background-size: cover;
     width:100%;
     height:87vh;
@@ -199,7 +199,7 @@ a{
 .sobre_container{
     width: 100%;
     height: auto;
-    align-items: center;
+    display: inline;
 }
 
 .sobre_quienesSomos{
@@ -208,10 +208,11 @@ a{
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height:400px;
+    height:450px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .sobre_quienesSomos h1{
@@ -222,8 +223,84 @@ a{
 
 
 .texto{
+    width: 90%;
+    margin: auto;
+    color: #b6b6b6;
+
+}
+
+.sobre_mision{
     width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: left;
+    margin: auto ;
+}
+
+h2{
+    color: #b6b6b6;
+    font-size: 3em;
+
+}
+
+p{
+    color: #b6b6b6;
+
+}
+
+.mision_img{
+    width: 100%;
+    height:400px;
+    background: url(../src/images/fondo_mision.jpg);
+    background-size: cover;
+    background-position-x: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.vision_img{
+    width: 100%;
+    height:400px;
+    background: url(../src/images/fondo_vision.jpg);
+    background-size: cover;
+    background-position-x: -400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.sobre_vision{
+    width: 80%;
+    text-align: left;
+    margin: auto ;
+
+}
+
+.valores_img{
+    width: 100%;
+    height:400px;
+    background: url(../src/images/fondo_valores.jpg);
+    background-size: cover;
+    background-position-x: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sobre_valores{
+    width: 80%;
+    text-align: left;
+    margin: auto ;
+}
+
+/* footer */
+
+.container_footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #000;
+    position: absolute;
 }
