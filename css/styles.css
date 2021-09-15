@@ -17,6 +17,15 @@ a{
     
 }
 
+.nav_ul{
+    list-style-type: none;
+}
+
+.nav_ul_li{
+    display: inline-block;
+
+}
+
 .container{
     width: 100%;
     height: 90px;   
