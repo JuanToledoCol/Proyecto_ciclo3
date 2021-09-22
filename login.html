@@ -16,7 +16,7 @@
 <body>
     <header>
         <!-- Barra de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-warning p-0 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-warning p-0 fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="src/images/perfil_sin_fondo2.png" alt="" width="100" height="100">
@@ -41,9 +41,14 @@
                                     Productos
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <li><a class="dropdown-item" href="Armarios.html">Armarios</a></li>
-                                    <li><a class="dropdown-item" href="Baños.html">Baños</a></li>
+                                    <li><a class="dropdown-item" href="Salas.html">Salas</a></li>
+                                    <li><a class="dropdown-item" href="Comedores.html">Comedores</a></li>
                                     <li><a class="dropdown-item" href="Cocinas.html">Cocinas</a></li>
+                                    <li><a class="dropdown-item" href="Baños.html">Baños</a></li>
+                                    <li><a class="dropdown-item" href="Armarios.html">Armarios y gavetas</a></li>
+                                    <li><a class="dropdown-item" href="Escritorios.html">Escritorios</a></li>
+                                    <li><a class="dropdown-item" href="Cunas.html">Cunas</a></li>
+                                    <li><a class="dropdown-item" href="Mas_muebles.html">otros</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -77,27 +82,28 @@
             </div>
         </nav>
     </header>
-    <div class="container_form">
-        <h1>Iniciar sesion</h1>
-        <form class="form" action="" method="POST">
-            <input class="form_input" type="text" id="usuario" name="usuario" placeholder="Usuario" required /><br>
-            <input class="form_input" type="password" name="clave" id="clave" placeholder="Contraseña" required /><br>
-            <button class="form_button" type="submit">Ingresar</button>
-            <p class="form_p">¿No tiene usuario? registrese <a href="registro.html">Aquí</a></p>
-        </form>
-    </div><br><br><br><br><br>
-    <!-- pie de pagina -->
-    <footer>
-        <article class="container_footer">
-            <p>Derechos de autor reservados</p>
-            <p>Ciclo 3 Grupo 5 G-13</p>
-        </article>
-    </footer>
 
+    <div class=" d-flex justify-content-center align-content-center" style="margin: 150px 0 180px 0;">
+        <div class="w-50 bg-secondary p-4 rounded-3">
+          <h1 class="text text-center">Iniciar sesion</h1>
+          <input class="form-control mb-3" type="text" id="usuario" name="usuario" placeholder="Usuario" required  autofocus />
 
+          <input class="form-control mb-3" type="password" name="clave" id="clave" placeholder="Contraseña" required />
+          <button class="btn btn-warning w-100 mb-3" type="submit">Ingresar</button>
+          <p class="text">¿No tiene usuario? registrese <a class="text-warning" href="registro.html">Aquí</a></p>
+
+        </div>
+      </div> 
+    
+      <footer class="footer mt-auto py-3 bg-warning">
+        <div class="container text-center">
+          <span class="text-secondary">Derechos reservados</span>
+        </div>
+      </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
-</body>
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  </body>
 
 </html>
