@@ -34,23 +34,25 @@
             <li class="nav-item">
               <a class="nav-link text-secondary" href="sobreNosotros.html">¿Quienes somos?</a>
             </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="btn btn-warning dropdown-toggle text-secondary fs-4 btn-outline-warning" href="productos.html"
-                  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="Salas.html">Salas</a></li>
-                  <li><a class="dropdown-item" href="Comedores.html">Comedores</a></li>
-                  <li><a class="dropdown-item" href="Cocinas.html">Cocinas</a></li>
-                  <li><a class="dropdown-item" href="Baños.html">Baños</a></li>
-                  <li><a class="dropdown-item" href="Armarios.html">Armarios y gavetas</a></li>
-                  <li><a class="dropdown-item" href="Escritorios.html">Escritorios</a></li>
-                  <li><a class="dropdown-item" href="Cunas.html">Cunas</a></li>
-                  <li><a class="dropdown-item" href="Mas_muebles.html">otros</a></li>
-                </ul>
-              </div>
+            <li class="btn-group">
+              <a type="button" href="productos.html"
+                class="btn btn-warning fs-4 text-secondary btn-outline-warning">Productos</a>
+              <button type="button"
+                class="btn btn-warning text-secondary dropdown-toggle dropdown-toggle-split btn-outline-warning"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="Salas.html">Salas</a></li>
+                <li><a class="dropdown-item" href="Comedores.html">Comedores</a></li>
+                <li><a class="dropdown-item" href="Cocinas.html">Cocinas</a></li>
+                <li><a class="dropdown-item" href="Baños.html">Baños</a></li>
+                <li><a class="dropdown-item" href="Armarios.html">Armarios y gavetas</a></li>
+                <li><a class="dropdown-item" href="Escritorios.html">Escritorios</a></li>
+                <li><a class="dropdown-item" href="Cunas.html">Cunas</a></li>
+                <li><a class="dropdown-item" href="Mas_muebles.html">otros</a></li>
+              </ul>
+
             </li>
             <li class="nav-item">
               <a class="nav-link text-secondary" href="contactenos.html">Contáctenos</a>
@@ -82,49 +84,70 @@
       </div>
     </nav>
   </header>
-  <div class="container-fluid w-100" style="margin-top: 120px;">
-    <h1 class="text-center text-secondary">Bienvenido al catalogo de nuestros productos</h1><br>
-    <div class="card text-center">
-      <div class="card-header bg-secondary">
-        <ul class="nav nav-tabs card-header-tabs">
-          <li class="nav-item">
-            <a class="nav-link text-warning" aria-current="true" href="Salas.html">Salas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Comedores.html">Comedores</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Cocinas.html">Cocinas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Baños.html">Baños</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Armarios.html">Armarios y Gavetas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Escritorios.html">Escritorios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Cunas.html">Cunas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Baños.html">Baños</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-warning" href="Mas_muebles.html">Otros</a>
-          </li>
-        </ul>
+
+  <div class="container-fluid w-100 bg-secondary pt-4" style="margin-top: 110px;">
+    <h1 class="text-center text-dark mt-4"><strong>Productos de la Carpintería Isabella</strong></h1>
+    <div class="container">
+
+      <div class="row">
+        <div class="col text-center p-3 m-5 border border-5 rounded-3 border-warning bg-white ">
+          <img src="/src/images/card_productos/Sofa.png" class="w-100" alt="Muebles para la sala"
+            title="Muebles para la sala" />
+          <h3><strong>Muebles para la sala</strong></h3>
+          <a href="Salas.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
+
+        <div class="col text-center bg-white p-5 m-5 border border-5 rounded-3 border-warning">
+          <img src="src/images/card_productos/Comedor.png" class="w-100" alt="Comedores" title="Comedores" />
+          <h3><strong>Comedores</strong></h3>
+          <a href="Comedores.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
       </div>
-      <div class="card-body bg-secondary">
-        <i class="bi bi-arrow-up-circle-fill" style="font-size: 2rem; color: #ffc107;"></i>
-        <h3 class="card-title">Selecciona el catalogo de tu interes</h3>
+
+      <div class="row">
+        <div class="col text-center bg-white p-3 m-5 border border-5 rounded-3 border-warning">
+          <img src="src/images/card_productos/Cocina.png" class="w-100" alt="Cocinas" title="Cocinas" />
+          <h3><strong>Cocinas</strong></h3>
+          <a href="Cocinas.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
+
+        <div class="col text-center bg-white p-3 m-5 border border-5 rounded-3 border-warning">
+          <img src="src/images/card_productos/Baño.png" class="w-100" alt="Muebles para el baño" title="Muebles para el baño" />
+          <h3><strong>Muebles para el baño</strong></h3>
+          <a href="Baños.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center bg-white p-3 m-5 border border-5 rounded-3 border-warning">
+          <img src="src/images/card_productos/Cama.png" class="w-100" alt="Armarios y Gavetas" title="Armarios y Gavetas" />
+          <h3><strong>Armarios-Gavetas</strong></h3>
+          <a href="Armarios.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
+        <div class="col text-center bg-white p-3 m-5 border border-5 rounded-3 border-warning">
+          <img src="src/images/card_productos/Escritorio.png" width="266.7px" alt="Escritorios" title="Escritorios" />
+          <h3><strong>Escritorios</h3></strong>
+          <a href="Escritorios.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center bg-white p-3 m-5 border border-5 rounded-3 border-warning">
+          <img src="src/images/card_productos/Cuna.png" class="w-100" alt="Cunas" title="Cunas" />
+          <h3><strong>Cunas</strong></h3>
+          <a href="Cunas.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
+        <div class="col text-center bg-white p-3 m-5 border border-5 rounded-3 border-warning">
+          <img src="src/images/card_productos/Repisa.png" class="w-100" alt="Más muebles" title="Más muebles" />
+          <h3><strong>Más muebles</strong></h3>
+          <a href="Mas_muebles.html"><button class="btn btn-warning">Ver productos</button></a>
+        </div>
       </div>
     </div>
   </div>
 
 
-  <footer class="footer mt-auto py-3 bg-warning fixed-bottom">
+  <footer class="footer mt-auto py-3 bg-warning">
     <div class="container text-center">
       <span class="text-secondary">Derechos reservados</span>
     </div>

@@ -33,23 +33,24 @@
             <li class="nav-item">
               <a class="nav-link text-secondary" href="sobreNosotros.html">¿Quienes somos?</a>
             </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="btn btn-warning dropdown-toggle text-secondary fs-4 btn-outline-warning" href="productos.html"
-                  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="Salas.html">Salas</a></li>
-                  <li><a class="dropdown-item" href="Comedores.html">Comedores</a></li>
-                  <li><a class="dropdown-item" href="Cocinas.html">Cocinas</a></li>
-                  <li><a class="dropdown-item" href="Baños.html">Baños</a></li>
-                  <li><a class="dropdown-item" href="Armarios.html">Armarios y gavetas</a></li>
-                  <li><a class="dropdown-item" href="Escritorios.html">Escritorios</a></li>
-                  <li><a class="dropdown-item" href="Cunas.html">Cunas</a></li>
-                  <li><a class="dropdown-item" href="Mas_muebles.html">otros</a></li>
-                </ul>
-              </div>
+            <li class="btn-group">
+              <a type="button" href="productos.html" class="btn btn-warning fs-4 text-secondary btn-outline-warning">Productos</a>
+              <button type="button"
+                class="btn btn-warning text-secondary dropdown-toggle dropdown-toggle-split btn-outline-warning"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="Salas.html">Salas</a></li>
+                <li><a class="dropdown-item" href="Comedores.html">Comedores</a></li>
+                <li><a class="dropdown-item" href="Cocinas.html">Cocinas</a></li>
+                <li><a class="dropdown-item" href="Baños.html">Baños</a></li>
+                <li><a class="dropdown-item" href="Armarios.html">Armarios y gavetas</a></li>
+                <li><a class="dropdown-item" href="Escritorios.html">Escritorios</a></li>
+                <li><a class="dropdown-item" href="Cunas.html">Cunas</a></li>
+                <li><a class="dropdown-item" href="Mas_muebles.html">otros</a></li>
+              </ul>
+
             </li>
             <li class="nav-item">
               <a class="nav-link text-secondary" href="contactenos.html">Contáctenos</a>
@@ -83,7 +84,7 @@
   </header>
 
  <div class=" d-flex justify-content-center align-content-center" style="margin: 150px 0 60px 0;">
-    <div class="w-50 bg-secondary p-4 rounded-3">
+    <div class="w-75 bg-secondary p-4 rounded-3">
       <h1 class="text text-center">Contáctenos</h1>
       <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellidos" required="true"
         autofocus /><br>
